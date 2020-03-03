@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $color-white;
+  color: $color-text-main;
+  font-family: $font-secondary;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

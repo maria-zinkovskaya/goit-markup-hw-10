@@ -1,0 +1,60 @@
+/*Section About*/
+.section {
+  margin: 0;
+  padding: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-color {
+  background-color: $color-section-color;
+}
+
+.about-list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.about-list__items {
+  margin-right: 30px;
+  width: 254px;
+
+  &:nth-last-child(1) {
+    margin-right: 0;
+  }
+}
+
+.about-list__title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  color: $color-text-main;
+  font-family: $font-primary;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.about-list__icon {
+  display: block;
+  fill: $color-accent;
+  width: 65px;
+  height: 66px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 63px;
+}
+
+.about-list__text {
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: $color-text-main;
+  font-family: $font-primary;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
